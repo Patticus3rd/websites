@@ -1,0 +1,107 @@
+.grid {
+    position: static;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 200px;
+    
+}
+
+.first-row {
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #2C9ABF;
+    background-color: #DAEDF3
+}
+
+.second-row {
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: #2C9ABF;
+    background-color: #DAEDF3
+}
+
+.third-row {
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    border-width: .5px;
+    border-style: solid;
+    border-color: #2C9ABF;
+    background-color: #DAEDF3
+}
+
+/* TABLE */
+
+.center-please {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 30px;
+}
+
+
+th, td {
+    text-align: center;
+    text-align: center;
+    border: double black 3px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: none;
+    padding-bottom: none;
+    background-color: #D5D5D5;
+}
+
+/* LISTS */
+
+.float-left {
+    float: left;
+    padding-left: 300px;
+}
+
+h3 {
+    align-content: center;
+}
+.float-right {
+    float: right;
+    padding-right: 300px;
+    padding-left: 200px;
+}
+
+/* IMAGES */
+.last-row {
+    position: static;
+    display: inline-flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 200px;
+    
+}
+
+#circle {
+    width: 120px;
+    height: 120px;
+    background: #324F19;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border-style: solid;
+}
+
+#square {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 120px;
+    height: 120px;
+    background: #f447ff;
+}
