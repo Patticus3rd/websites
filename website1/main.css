@@ -8,6 +8,7 @@
 }
 
 .first-row {
+    position: static;
     padding-right: 80px;
     padding-left: 80px;
     padding-top: 10px;
@@ -19,6 +20,7 @@
 }
 
 .second-row {
+    position: static;
     padding-top: 10px;
     padding-right: 80px;
     padding-left: 80px;
@@ -30,6 +32,7 @@
 }
 
 .third-row {
+    position: static;
     padding-top: 10px;
     padding-right: 80px;
     padding-left: 80px;
@@ -80,14 +83,16 @@ h3 {
 /* IMAGES */
 .last-row {
     position: static;
-    display: inline-flex;
-    align-content: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     padding-left: 200px;
     
 }
 
 #circle {
+    float: left;
+    margin: 20px;
     width: 120px;
     height: 120px;
     background: #324F19;
@@ -100,8 +105,17 @@ h3 {
 #square {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     width: 120px;
     height: 120px;
     background: #f447ff;
+}
+
+img {
+    position: flex;
+    float: right;
+    width: 120px;
+    height: 120px;
+    border-style: solid;
+    border-color: blue;
 }

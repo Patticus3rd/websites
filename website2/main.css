@@ -1,0 +1,17 @@
+* {
+    background-color: gray;
+    
+}
+
+.name {
+    font-weight: strong;
+    font-size: 20px;
+    align-content: center;
+    
+}
+
+
+.menu {
+    float: left;
+    border-style: dotted;
+}
